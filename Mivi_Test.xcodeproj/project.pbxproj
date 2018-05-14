@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A14168BE20A420EB00534494 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14168BD20A420EB00534494 /* AppDelegate.swift */; };
+		A14168C020A420ED00534494 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14168BF20A420EC00534494 /* ViewController.swift */; };
+		A14168C320A420F000534494 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14168C120A420F000534494 /* Main.storyboard */; };
+		A14168C620A420F200534494 /* Mivi_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A14168C420A420F200534494 /* Mivi_Test.xcdatamodeld */; };
+		A14168C820A4212600534494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14168C720A4212600534494 /* Assets.xcassets */; };
+		A14168CB20A4212600534494 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14168C920A4212600534494 /* LaunchScreen.storyboard */; };
+		A14168D420A582E900534494 /* collection.json in Resources */ = {isa = PBXBuildFile; fileRef = A14168D320A582E800534494 /* collection.json */; };
+		A14168D620A99D5E00534494 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14168D520A99D5E00534494 /* DetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A14168BA20A420E700534494 /* Mivi_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mivi_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14168BD20A420EB00534494 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A14168BF20A420EC00534494 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A14168C220A420F000534494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A14168C520A420F200534494 /* Mivi_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mivi_Test.xcdatamodel; sourceTree = "<group>"; };
+		A14168C720A4212600534494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A14168CA20A4212600534494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A14168CC20A4212600534494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14168D320A582E800534494 /* collection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = collection.json; sourceTree = "<group>"; };
+		A14168D520A99D5E00534494 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A14168B720A420E700534494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A14168B120A420E700534494 = {
+			isa = PBXGroup;
+			children = (
+				A14168D220A582C700534494 /* Json */,
+				A14168BC20A420E800534494 /* Mivi_Test */,
+				A14168BB20A420E800534494 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A14168BB20A420E800534494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A14168BA20A420E700534494 /* Mivi_Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A14168BC20A420E800534494 /* Mivi_Test */ = {
+			isa = PBXGroup;
+			children = (
+				A14168BD20A420EB00534494 /* AppDelegate.swift */,
+				A14168BF20A420EC00534494 /* ViewController.swift */,
+				A14168C120A420F000534494 /* Main.storyboard */,
+				A14168C720A4212600534494 /* Assets.xcassets */,
+				A14168C920A4212600534494 /* LaunchScreen.storyboard */,
+				A14168CC20A4212600534494 /* Info.plist */,
+				A14168C420A420F200534494 /* Mivi_Test.xcdatamodeld */,
+				A14168D520A99D5E00534494 /* DetailsViewController.swift */,
+			);
+			path = Mivi_Test;
+			sourceTree = "<group>";
+		};
+		A14168D220A582C700534494 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				A14168D320A582E800534494 /* collection.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A14168B920A420E700534494 /* Mivi_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14168CF20A4212600534494 /* Build configuration list for PBXNativeTarget "Mivi_Test" */;
+			buildPhases = (
+				A14168B620A420E700534494 /* Sources */,
+				A14168B720A420E700534494 /* Frameworks */,
+				A14168B820A420E700534494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mivi_Test;
+			productName = Mivi_Test;
+			productReference = A14168BA20A420E700534494 /* Mivi_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A14168B220A420E700534494 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Altair;
+				TargetAttributes = {
+					A14168B920A420E700534494 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = A14168B520A420E700534494 /* Build configuration list for PBXProject "Mivi_Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A14168B120A420E700534494;
+			productRefGroup = A14168BB20A420E800534494 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A14168B920A420E700534494 /* Mivi_Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A14168B820A420E700534494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14168CB20A4212600534494 /* LaunchScreen.storyboard in Resources */,
+				A14168C820A4212600534494 /* Assets.xcassets in Resources */,
+				A14168C320A420F000534494 /* Main.storyboard in Resources */,
+				A14168D420A582E900534494 /* collection.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A14168B620A420E700534494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14168C020A420ED00534494 /* ViewController.swift in Sources */,
+				A14168BE20A420EB00534494 /* AppDelegate.swift in Sources */,
+				A14168C620A420F200534494 /* Mivi_Test.xcdatamodeld in Sources */,
+				A14168D620A99D5E00534494 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A14168C120A420F000534494 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14168C220A420F000534494 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A14168C920A4212600534494 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14168CA20A4212600534494 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A14168CD20A4212600534494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A14168CE20A4212600534494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A14168D020A4212600534494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mivi_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Altair.Mivi-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A14168D120A4212600534494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mivi_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Altair.Mivi-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A14168B520A420E700534494 /* Build configuration list for PBXProject "Mivi_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14168CD20A4212600534494 /* Debug */,
+				A14168CE20A4212600534494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14168CF20A4212600534494 /* Build configuration list for PBXNativeTarget "Mivi_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14168D020A4212600534494 /* Debug */,
+				A14168D120A4212600534494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A14168C420A420F200534494 /* Mivi_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A14168C520A420F200534494 /* Mivi_Test.xcdatamodel */,
+			);
+			currentVersion = A14168C520A420F200534494 /* Mivi_Test.xcdatamodel */;
+			path = Mivi_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A14168B220A420E700534494 /* Project object */;
+}
